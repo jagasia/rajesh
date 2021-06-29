@@ -1,0 +1,10 @@
+sonar:sonar -Dsonar.projectKey=Sonarqube_Demo1 -Dsonar.host.url=http://localhost:9000 -Dsonar.login=8ba52151f53c9e0f3ad90bde599f649a5ea682dc
+
+
+
+
+
+mvn sonar:sonar \
+  -Dsonar.projectKey=LoanManagement \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=86d456af2d248a2a54b09d12dab4cc72587d0d8f
